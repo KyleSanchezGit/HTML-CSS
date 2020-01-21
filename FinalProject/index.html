@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+   <!-- 
+      Author: Kyle Sanchez
+      Date: 6/5/2019
+      Filename: index.html
+   
+      This file is the home page for the Final Project
+      
+  
+   -->
+      <meta charset="UTF-8">
+	  <link href="index.css" rel="stylesheet" />
+	  
+	  
+		
+      <title>Home Page</title>
+   </head>
+   
+   <body>
+   
+   <div id="audio">
+   
+   <!--			I'd like extra credit for this part, i found it on W3 schools. -->
+   
+		<audio id="myAudio" >
+		
+		<source src="flashlight.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+		</audio>
+
+	<p>Click the buttons to play or pause the FUNK.</p>
+
+	<button onclick="playAudio()" type="button">Play Audio</button>
+		<button onclick="pauseAudio()" type="button">Pause Audio</button> 
+
+		<script>
+		var x = document.getElementById("myAudio"); 
+
+		function playAudio() { 
+			x.play(); 
+			} 
+
+		function pauseAudio() { 
+		x.pause(); 
+		} 
+		</script>
+   </div>
+   
+   <header>
+   <img src="Banner.jpg" alt="Coding universe" width="1100" height="300">
+   </header>
+   
+   
+   <nav id="top">
+   <ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="localbusiness/index.html">Local Business</a></li>
+	<li><a href="AdvertiseProduct/product.html">Advertise a Product</a></li>
+	<li><a href="mealPlan/mealPlan.html">Meal Plan Table</a></li>
+	<li><a href="PersonalWebSite/index.html">Personal Website</a></li>
+	</ul>
+   </nav>
+   
+   <section id="left">
+
+   <h1> Welcome to the Culmination of my HTML Experience!</h1>
+   
+   <p> If you click the navigation links above you will be able to navigate to the different projects I completed during
+   my semester of Front End Web Development</p>
+   
+   </section>
+   
+   <section id="borderimg">
+   
+   <img src="imagehtml.jpg" alt="HTML artistic image" class="html" >
+   
+   </section>   
+	
+	
+	<footer>
+	<nav id="bottom">
+            <ul>
+               <li><a href="https://www.facebook.com/kyle.sanchez.14"><img src="fbicon.png" alt="" />Kyle's Facebook</a></li>
+            </ul>
+            <ul>
+			<li><a href="https://www.instagram.com/ksubclass/"><img src="instagram.jpg" alt="" />Kyle's Instagram</a></li>
+			<li><a href="mailto:ksubclass@gmail.com">Kyle's EMAIL</a></li>
+			</ul>
+         </nav>
+         <p>Team Sanchez &copy; 2019 All Rights Reserved</p>
+   </footer>
+   
+   
+   </body>
+   
+</html>

@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+
+/* 
+New Perspectives on HTML5 and CSS3, 7th Edition 
+Kyle Sanchez 5/26/2019 
+Filename: product.css 
+This is the style sheet for the index page 
+*/
+
+/* Blockquote Styles */
+
+#right blockquote {
+   color: #b52f2f;
+   font-size: 1.1em;
+   padding: 10px;
+   margin: 10px auto;
+   width: 70%;
+   background: url(speech.png) no-repeat;
+	background-size: 100% 100%;
+	-webkit-filter: drop-shadow(5px 5px 10px rgb(51, 51, 51));
+	filter: drop-shadow(5px 5px 10px rgb(51, 51, 51));
+}
+
+#right blockquote p {
+   margin: 0px 10px 10px 10px;
+   padding-bottom: 15px;
+}
+
+
+#right cite {
+   display: block;
+   margin: 0px auto 30px;
+   text-align: right;
+   width: 50%;
+}
+#right {
+   margin-top: 25px;
+   float: left;
+   padding-bottom: 20px;
+   width: 30%;
+}
+
+#center {
+   margin-top: 25px;
+   float: left;
+   padding-bottom: 20px;
+   width: 50%;
+}
+
+
+
+/* Paragraph Styles */
+
+#center {
+	height:100%;
+}
+
+div {
+	text-align: center;
+	border: 2px solid black;
+  outline: rgb(220, 27, 27) solid 2px;
+  margin: auto;  
+  padding: 10px;
+}
+
+/* Picture sizing */
+
+
+
+cite img {
+	border-radius: 50%;
+}
+
+/* color styles */

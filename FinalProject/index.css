@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+
+/* 
+New Perspectives on HTML5 and CSS3, 7th Edition 
+Kyle Sanchez 6/5/2019 
+Filename: index.css 
+This is the style sheet for the index page of The Final Project 
+*/
+
+
+/* HTML and Body Styles */
+
+html {
+   font-family: Tahoma, Geneva, sans-serif;
+}
+
+body {
+   background-color: rgb(231, 231, 231);
+   margin: 0px auto;
+   height: 100%;
+   max-width: 1100px;
+   min-width: 500px;
+   width:100%;
+   
+}
+
+body{
+	box-shadow: 10px 0px 50px rgb(51,51,51), -10px 0px 50px rgb(51,51,51);
+}
+
+#audio {
+	text-align: center;
+  padding: 14px 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(211, 211, 211);
+}
+#top1 {
+	text-align: center;
+  padding: 14px 16px;
+}
+#top {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#top li {
+  float: left;
+  list-style-type: none;
+  font-size: 22px;
+}
+
+#top li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+
+/* Paragraph Styles */
+
+h1 {
+	text-align:center;
+}
+h2 {
+	text-align: center;
+}
+
+
+
+/* Picture sizing */
+
+#borderimg { 
+  border: 50px solid transparent;
+  padding: 15px;   
+  border-image: url(border.png) round;
+  border-image-slice: 50;
+  border-image-repeat:round;
+}
+
+.html {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* color styles */
+
+
+
+/* Footer styles */
+
+#bottom {
+   background-color: rgb(220, 27, 27);
+   color: rgb(211, 211, 211);
+   padding: 15px;
+   margin: 0;
+  overflow: hidden;
+}
+
+#bottom ul li {
+   font-size: 1em;
+   line-height: 1.8em;
+   list-style-type: none;
+   display: block;
+
+}
+#bottom li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+#bottom ul a {
+   color: white;
+}
+footer {
+   color: rgb(211, 211, 211);
+   font-size: 1em;
+   text-align: center;
+   background-color: black;
+   margin: 0px;
+   padding: 10px 0px;
+   clear:both;
+   width: 100%;
+}
